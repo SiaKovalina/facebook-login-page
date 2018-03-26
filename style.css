@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: system-ui, sans-serif;
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+}
+.flex-wrapper {
+    display: flex;
+}
+.flex-item {
+    margin-right: auto;
+}
+.container {
+    margin: 0 auto;
+    max-width: 980px;
+}
+header {
+    background-color: #3D5A96;
+    height: 85px;
+}
+.logo {
+    width: 175px;
+    height: 60px;
+    background-image: url(fb-logo.png);
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.sign-up {
+    color: #fff;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #4ed033;
+    line-height: 30px;
+    border-radius: 3px;
+    margin-left: 10px;
+    transition: .2s;
+}
+.sign-up:hover {
+    background-color: #42b72a;
+    border-color: #42b72a;
+}
+label {
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
+}
+.sign-in-form {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+.forgotten {
+    display: block;
+}
+.input-wrapper {
+    margin-right: 15px;
+}
+.forgotten {
+    margin-top: 5px;
+    color: #9cb4d8;
+}
+.forgotten:hover {
+    text-decoration: underline;
+}
+.log-in {
+    align-self: center;
+    display: inline-block;
+    line-height: 20px;
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    border-radius: 1px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main {
+    background-color: #E9EBEE;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.find-your-acc {
+    background-color: #FFFFFF;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccd1d8;
+}
+.find-your-acc h2 {
+    font-size: 24px;
+}
+.hr {
+    height: 1px;
+    background-color: #ccd1d8;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.search-form {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    max-width: 400px;
+}
+label.search-label {
+    color: #000;
+    margin-bottom: 10px;
+}
+.search-input {
+    width: 300px;
+}
+.find-your-acc-bottom {
+    background-color: #f3f4f5;
+    border-bottom: 1px solid #ccd1d8;
+    border-left: 1px solid #ccd1d8;
+    border-right: 1px solid #ccd1d8;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.search-btn,
+.cancel-btn {
+    display: inline-block;
+    line-height: 25px;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 15px;
+}
+.search-btn {
+    color: #fff;
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    
+}
+.cancel-btn {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccd1d8;
+}
+footer {
+    padding-bottom: 35px;
+    padding-top: 100px;
+}
+.footer-link-grey, 
+.footer-link-blue {
+    margin-right: 10px;
+    color: #3D5A96;
+    line-height: 25px;
+}
+.footer-link-blue:hover {
+    text-decoration: underline;
+}
+.footer-link-grey {
+    color: #768295;
+    cursor: default;
+}
+.hr-footer {
+    height: 1px;
+    background-color: #ccd1d8;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+p.footer-link-grey {
+    margin-top: 25px;
+}
